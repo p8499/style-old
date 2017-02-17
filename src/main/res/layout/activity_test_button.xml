@@ -44,9 +44,10 @@
         </LinearLayout>
 
         <Button
-            style="@style/ButtonStyle.Default.Disabled.F"
+            style="@style/ButtonStyle.Default.F"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Default.Disabled.F"/>
 
         <LinearLayout
@@ -55,25 +56,28 @@
             android:layout_margin="4dp">
 
             <Button
-                style="@style/ButtonStyle.Default.Start.Disabled.F"
+                style="@style/ButtonStyle.Default.Start.F"
                 android:layout_width="0dp"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Left"/>
 
             <Button
-                style="@style/ButtonStyle.Default.Middle.Disabled.F"
+                style="@style/ButtonStyle.Default.Middle.F"
                 android:layout_width="0dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Middle"/>
 
             <Button
-                style="@style/ButtonStyle.Default.End.Disabled.F"
+                style="@style/ButtonStyle.Default.End.F"
                 android:layout_width="0dp"
                 android:layout_marginLeft="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Right"/>
         </LinearLayout>
 
@@ -82,6 +86,7 @@
             android:layout_width="match_parent"
             android:layout_margin="4dp"
             android:text="Default.G"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -109,43 +114,51 @@
                 android:layout_weight="1"
                 android:text="Right"/>
         </LinearLayout>
+
         <Button
-            style="@style/ButtonStyle.Default.Disabled.G"
+            style="@style/ButtonStyle.Default.G"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Default.Disabled.G"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp">
 
             <Button
-                style="@style/ButtonStyle.Default.Start.Disabled.G"
+                style="@style/ButtonStyle.Default.Start.G"
                 android:layout_width="0dp"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Left"/>
 
             <Button
-                style="@style/ButtonStyle.Default.Middle.Disabled.G"
+                style="@style/ButtonStyle.Default.Middle.G"
                 android:layout_width="0dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Middle"/>
 
             <Button
-                style="@style/ButtonStyle.Default.End.Disabled.G"
+                style="@style/ButtonStyle.Default.End.G"
                 android:layout_width="0dp"
                 android:layout_marginLeft="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Right"/>
         </LinearLayout>
+
         <Button
             style="@style/ButtonStyle.Default.H"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
             android:text="Default.H"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -173,38 +186,45 @@
                 android:layout_weight="1"
                 android:text="Right"/>
         </LinearLayout>
+
         <Button
-            style="@style/ButtonStyle.Default.Disabled.H"
+            style="@style/ButtonStyle.Default.H"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Default.Disabled.H"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp">
 
             <Button
-                style="@style/ButtonStyle.Default.Start.Disabled.H"
+                style="@style/ButtonStyle.Default.Start.H"
                 android:layout_width="0dp"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Left"/>
 
             <Button
-                style="@style/ButtonStyle.Default.Middle.Disabled.H"
+                style="@style/ButtonStyle.Default.Middle.H"
                 android:layout_width="0dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Middle"/>
 
             <Button
-                style="@style/ButtonStyle.Default.End.Disabled.H"
+                style="@style/ButtonStyle.Default.End.H"
                 android:layout_width="0dp"
                 android:layout_marginLeft="2dp"
                 android:layout_weight="1"
+                android:enabled="false"
                 android:text="Right"/>
         </LinearLayout>
+
         <Button
             style="@style/ButtonStyle.Primary.F"
             android:layout_width="match_parent"
@@ -212,9 +232,10 @@
             android:text="Primary.F"/>
 
         <Button
-            style="@style/ButtonStyle.Primary.Disabled.F"
+            style="@style/ButtonStyle.Primary.F"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Primary.Disabled.F"/>
 
         <Button
@@ -224,9 +245,10 @@
             android:text="Primary.G"/>
 
         <Button
-            style="@style/ButtonStyle.Primary.Disabled.G"
+            style="@style/ButtonStyle.Primary.G"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Primary.Disabled.G"/>
 
         <Button
@@ -236,9 +258,10 @@
             android:text="Primary.H"/>
 
         <Button
-            style="@style/ButtonStyle.Primary.Disabled.H"
+            style="@style/ButtonStyle.Primary.H"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Primary.Disabled.H"/>
 
         <Button
@@ -248,9 +271,10 @@
             android:text="Success.F"/>
 
         <Button
-            style="@style/ButtonStyle.Success.Disabled.F"
+            style="@style/ButtonStyle.Success.F"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Success.Disabled.F"/>
 
         <Button
@@ -260,9 +284,10 @@
             android:text="Success.G"/>
 
         <Button
-            style="@style/ButtonStyle.Success.Disabled.G"
+            style="@style/ButtonStyle.Success.G"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Success.Disabled.G"/>
 
         <Button
@@ -272,9 +297,10 @@
             android:text="Success.H"/>
 
         <Button
-            style="@style/ButtonStyle.Success.Disabled.H"
+            style="@style/ButtonStyle.Success.H"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Success.Disabled.H"/>
 
         <Button
@@ -284,9 +310,10 @@
             android:text="Info.F"/>
 
         <Button
-            style="@style/ButtonStyle.Info.Disabled.F"
+            style="@style/ButtonStyle.Info.F"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Info.Disabled.F"/>
 
         <Button
@@ -296,9 +323,10 @@
             android:text="Info.G"/>
 
         <Button
-            style="@style/ButtonStyle.Info.Disabled.G"
+            style="@style/ButtonStyle.Info.G"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Info.Disabled.G"/>
 
         <Button
@@ -308,9 +336,10 @@
             android:text="Info.H"/>
 
         <Button
-            style="@style/ButtonStyle.Info.Disabled.H"
+            style="@style/ButtonStyle.Info.H"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Info.Disabled.H"/>
 
         <Button
@@ -320,9 +349,10 @@
             android:text="Warning.F"/>
 
         <Button
-            style="@style/ButtonStyle.Warning.Disabled.F"
+            style="@style/ButtonStyle.Warning.F"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Warning.Disabled.F"/>
 
         <Button
@@ -332,9 +362,10 @@
             android:text="Warning.G"/>
 
         <Button
-            style="@style/ButtonStyle.Warning.Disabled.G"
+            style="@style/ButtonStyle.Warning.G"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Warning.Disabled.G"/>
 
         <Button
@@ -344,9 +375,10 @@
             android:text="Warning.H"/>
 
         <Button
-            style="@style/ButtonStyle.Warning.Disabled.H"
+            style="@style/ButtonStyle.Warning.H"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Warning.Disabled.H"/>
 
         <Button
@@ -356,9 +388,10 @@
             android:text="Danger.F"/>
 
         <Button
-            style="@style/ButtonStyle.Danger.Disabled.F"
+            style="@style/ButtonStyle.Danger.F"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Danger.Disabled.F"/>
 
         <Button
@@ -368,9 +401,10 @@
             android:text="Danger.G"/>
 
         <Button
-            style="@style/ButtonStyle.Danger.Disabled.G"
+            style="@style/ButtonStyle.Danger.G"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Danger.Disabled.G"/>
 
         <Button
@@ -380,9 +414,10 @@
             android:text="Danger.H"/>
 
         <Button
-            style="@style/ButtonStyle.Danger.Disabled.H"
+            style="@style/ButtonStyle.Danger.H"
             android:layout_width="match_parent"
             android:layout_margin="4dp"
+            android:enabled="false"
             android:text="Danger.Disabled.H"/>
 
     </LinearLayout>
