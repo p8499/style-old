@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image.Addon.F.Height">36dp</dimen>
+    <dimen name="image.Addon.F.Width">36dp</dimen>
+    <dimen name="image.Addon.F.PaddingVertical">9dp</dimen>
+    <dimen name="image.Addon.F.PaddingHorizontal">9dp</dimen>
+
+    <dimen name="image.Addon.G.Height">32dp</dimen>
+    <dimen name="image.Addon.G.Width">32dp</dimen>
+    <dimen name="image.Addon.G.PaddingVertical">8dp</dimen>
+    <dimen name="image.Addon.G.PaddingHorizontal">8dp</dimen>
+
+    <dimen name="image.Addon.H.Height">28dp</dimen>
+    <dimen name="image.Addon.H.Width">28dp</dimen>
+    <dimen name="image.Addon.H.PaddingVertical">7dp</dimen>
+    <dimen name="image.Addon.H.PaddingHorizontal">7dp</dimen>
+
+</resources>

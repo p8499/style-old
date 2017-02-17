@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style name="_ButtonStyle"/>
+
+    <style name="_ButtonStyle.Default" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_default_background</item>
+        <item name="android:textColor">@color/button.Default.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Default.F" parent="_ButtonStyle.Default">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.G" parent="_ButtonStyle.Default">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.H" parent="_ButtonStyle.Default">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Default.Disabled" parent="_ButtonStyle.Default">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Disabled.F" parent="_ButtonStyle.Default.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Disabled.G" parent="_ButtonStyle.Default.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Disabled.H" parent="_ButtonStyle.Default.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Primary" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_primary_background</item>
+        <item name="android:textColor">@color/button.Primary.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.F" parent="_ButtonStyle.Primary">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.G" parent="_ButtonStyle.Primary">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.H" parent="_ButtonStyle.Primary">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Primary.Disabled" parent="_ButtonStyle.Primary">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Disabled.F" parent="_ButtonStyle.Primary.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Disabled.G" parent="_ButtonStyle.Primary.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Disabled.H" parent="_ButtonStyle.Primary.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Success" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_success_background</item>
+        <item name="android:textColor">@color/button.Success.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Success.F" parent="_ButtonStyle.Success">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.G" parent="_ButtonStyle.Success">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.H" parent="_ButtonStyle.Success">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Success.Disabled" parent="_ButtonStyle.Success">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Disabled.F" parent="_ButtonStyle.Success.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Disabled.G" parent="_ButtonStyle.Success.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Disabled.H" parent="_ButtonStyle.Success.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+
+    <style name="_ButtonStyle.Info" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_info_background</item>
+        <item name="android:textColor">@color/button.Info.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Info.F" parent="_ButtonStyle.Info">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.G" parent="_ButtonStyle.Info">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.H" parent="_ButtonStyle.Info">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Info.Disabled" parent="_ButtonStyle.Info">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Disabled.F" parent="_ButtonStyle.Info.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Disabled.G" parent="_ButtonStyle.Info.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Disabled.H" parent="_ButtonStyle.Info.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Warning" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_warning_background</item>
+        <item name="android:textColor">@color/button.Warning.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.F" parent="_ButtonStyle.Warning">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.G" parent="_ButtonStyle.Warning">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.H" parent="_ButtonStyle.Warning">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Warning.Disabled" parent="_ButtonStyle.Warning">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Disabled.F" parent="_ButtonStyle.Warning.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Disabled.G" parent="_ButtonStyle.Warning.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Disabled.H" parent="_ButtonStyle.Warning.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Danger" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_danger_background</item>
+        <item name="android:textColor">@color/button.Danger.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.F" parent="_ButtonStyle.Danger">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.G" parent="_ButtonStyle.Danger">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.H" parent="_ButtonStyle.Danger">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Danger.Disabled" parent="_ButtonStyle.Danger">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Disabled.F" parent="_ButtonStyle.Danger.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Disabled.G" parent="_ButtonStyle.Danger.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Disabled.H" parent="_ButtonStyle.Danger.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Default.Start" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_default_start_background</item>
+        <item name="android:textColor">@color/button.Default.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Start.F" parent="_ButtonStyle.Default.Start">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Start.G" parent="_ButtonStyle.Default.Start">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Start.H" parent="_ButtonStyle.Default.Start">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Default.Start.Disabled" parent="_ButtonStyle.Default.Start">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Start.Disabled.F" parent="_ButtonStyle.Default.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Start.Disabled.G" parent="_ButtonStyle.Default.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Start.Disabled.H" parent="_ButtonStyle.Default.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Primary.Start" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_primary_start_background</item>
+        <item name="android:textColor">@color/button.Primary.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Start.F" parent="_ButtonStyle.Primary.Start">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Start.G" parent="_ButtonStyle.Primary.Start">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Start.H" parent="_ButtonStyle.Primary.Start">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Primary.Start.Disabled" parent="_ButtonStyle.Primary.Start">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Start.Disabled.F" parent="_ButtonStyle.Primary.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Start.Disabled.G" parent="_ButtonStyle.Primary.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Start.Disabled.H" parent="_ButtonStyle.Primary.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Success.Start" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_success_start_background</item>
+        <item name="android:textColor">@color/button.Success.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Start.F" parent="_ButtonStyle.Success.Start">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Start.G" parent="_ButtonStyle.Success.Start">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Start.H" parent="_ButtonStyle.Success.Start">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Success.Start.Disabled" parent="_ButtonStyle.Success.Start">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Start.Disabled.F" parent="_ButtonStyle.Success.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Start.Disabled.G" parent="_ButtonStyle.Success.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Start.Disabled.H" parent="_ButtonStyle.Success.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+
+    <style name="_ButtonStyle.Info.Start" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_info_start_background</item>
+        <item name="android:textColor">@color/button.Info.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Start.F" parent="_ButtonStyle.Info.Start">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Start.G" parent="_ButtonStyle.Info.Start">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Start.H" parent="_ButtonStyle.Info.Start">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Info.Start.Disabled" parent="_ButtonStyle.Info.Start">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Start.Disabled.F" parent="_ButtonStyle.Info.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Start.Disabled.G" parent="_ButtonStyle.Info.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Start.Disabled.H" parent="_ButtonStyle.Info.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Warning.Start" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_warning_start_background</item>
+        <item name="android:textColor">@color/button.Warning.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Start.F" parent="_ButtonStyle.Warning.Start">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Start.G" parent="_ButtonStyle.Warning.Start">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Start.H" parent="_ButtonStyle.Warning.Start">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Warning.Start.Disabled" parent="_ButtonStyle.Warning.Start">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Start.Disabled.F" parent="_ButtonStyle.Warning.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Start.Disabled.G" parent="_ButtonStyle.Warning.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Start.Disabled.H" parent="_ButtonStyle.Warning.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Danger.Start" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_danger_start_background</item>
+        <item name="android:textColor">@color/button.Danger.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Start.F" parent="_ButtonStyle.Danger.Start">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Start.G" parent="_ButtonStyle.Danger.Start">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Start.H" parent="_ButtonStyle.Danger.Start">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Danger.Start.Disabled" parent="_ButtonStyle.Danger.Start">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Start.Disabled.F" parent="_ButtonStyle.Danger.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Start.Disabled.G" parent="_ButtonStyle.Danger.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Start.Disabled.H" parent="_ButtonStyle.Danger.Start.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Default.End" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_default_end_background</item>
+        <item name="android:textColor">@color/button.Default.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Default.End.F" parent="_ButtonStyle.Default.End">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.End.G" parent="_ButtonStyle.Default.End">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.End.H" parent="_ButtonStyle.Default.End">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Default.End.Disabled" parent="_ButtonStyle.Default.End">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Default.End.Disabled.F" parent="_ButtonStyle.Default.End.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.End.Disabled.G" parent="_ButtonStyle.Default.End.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.End.Disabled.H" parent="_ButtonStyle.Default.End.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Primary.End" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_primary_end_background</item>
+        <item name="android:textColor">@color/button.Primary.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.End.F" parent="_ButtonStyle.Primary.End">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.End.G" parent="_ButtonStyle.Primary.End">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.End.H" parent="_ButtonStyle.Primary.End">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Primary.End.Disabled" parent="_ButtonStyle.Primary.End">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.End.Disabled.F" parent="_ButtonStyle.Primary.End.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.End.Disabled.G" parent="_ButtonStyle.Primary.End.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.End.Disabled.H" parent="_ButtonStyle.Primary.End.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Success.End" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_success_end_background</item>
+        <item name="android:textColor">@color/button.Success.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Success.End.F" parent="_ButtonStyle.Success.End">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.End.G" parent="_ButtonStyle.Success.End">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.End.H" parent="_ButtonStyle.Success.End">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Success.End.Disabled" parent="_ButtonStyle.Success.End">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Success.End.Disabled.F" parent="_ButtonStyle.Success.End.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.End.Disabled.G" parent="_ButtonStyle.Success.End.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.End.Disabled.H" parent="_ButtonStyle.Success.End.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+
+    <style name="_ButtonStyle.Info.End" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_info_end_background</item>
+        <item name="android:textColor">@color/button.Info.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Info.End.F" parent="_ButtonStyle.Info.End">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.End.G" parent="_ButtonStyle.Info.End">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.End.H" parent="_ButtonStyle.Info.End">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Info.End.Disabled" parent="_ButtonStyle.Info.End">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Info.End.Disabled.F" parent="_ButtonStyle.Info.End.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.End.Disabled.G" parent="_ButtonStyle.Info.End.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.End.Disabled.H" parent="_ButtonStyle.Info.End.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Warning.End" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_warning_end_background</item>
+        <item name="android:textColor">@color/button.Warning.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.End.F" parent="_ButtonStyle.Warning.End">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.End.G" parent="_ButtonStyle.Warning.End">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.End.H" parent="_ButtonStyle.Warning.End">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Warning.End.Disabled" parent="_ButtonStyle.Warning.End">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.End.Disabled.F" parent="_ButtonStyle.Warning.End.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.End.Disabled.G" parent="_ButtonStyle.Warning.End.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.End.Disabled.H" parent="_ButtonStyle.Warning.End.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Danger.End" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_danger_end_background</item>
+        <item name="android:textColor">@color/button.Danger.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.End.F" parent="_ButtonStyle.Danger.End">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.End.G" parent="_ButtonStyle.Danger.End">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.End.H" parent="_ButtonStyle.Danger.End">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Danger.End.Disabled" parent="_ButtonStyle.Danger.End">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.End.Disabled.F" parent="_ButtonStyle.Danger.End.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.End.Disabled.G" parent="_ButtonStyle.Danger.End.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.End.Disabled.H" parent="_ButtonStyle.Danger.End.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Default.Middle" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_default_middle_background</item>
+        <item name="android:textColor">@color/button.Default.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Middle.F" parent="_ButtonStyle.Default.Middle">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Middle.G" parent="_ButtonStyle.Default.Middle">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Middle.H" parent="_ButtonStyle.Default.Middle">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Default.Middle.Disabled" parent="_ButtonStyle.Default.Middle">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Middle.Disabled.F" parent="_ButtonStyle.Default.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Middle.Disabled.G" parent="_ButtonStyle.Default.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Default.Middle.Disabled.H" parent="_ButtonStyle.Default.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Primary.Middle" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_primary_middle_background</item>
+        <item name="android:textColor">@color/button.Primary.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Middle.F" parent="_ButtonStyle.Primary.Middle">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Middle.G" parent="_ButtonStyle.Primary.Middle">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Middle.H" parent="_ButtonStyle.Primary.Middle">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Primary.Middle.Disabled" parent="_ButtonStyle.Primary.Middle">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Middle.Disabled.F" parent="_ButtonStyle.Primary.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Middle.Disabled.G" parent="_ButtonStyle.Primary.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Primary.Middle.Disabled.H" parent="_ButtonStyle.Primary.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Success.Middle" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_success_middle_background</item>
+        <item name="android:textColor">@color/button.Success.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Middle.F" parent="_ButtonStyle.Success.Middle">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Middle.G" parent="_ButtonStyle.Success.Middle">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Middle.H" parent="_ButtonStyle.Success.Middle">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Success.Middle.Disabled" parent="_ButtonStyle.Success.Middle">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Middle.Disabled.F" parent="_ButtonStyle.Success.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Middle.Disabled.G" parent="_ButtonStyle.Success.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Success.Middle.Disabled.H" parent="_ButtonStyle.Success.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+
+    <style name="_ButtonStyle.Info.Middle" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_info_middle_background</item>
+        <item name="android:textColor">@color/button.Info.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Middle.F" parent="_ButtonStyle.Info.Middle">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Middle.G" parent="_ButtonStyle.Info.Middle">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Middle.H" parent="_ButtonStyle.Info.Middle">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Info.Middle.Disabled" parent="_ButtonStyle.Info.Middle">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Middle.Disabled.F" parent="_ButtonStyle.Info.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Middle.Disabled.G" parent="_ButtonStyle.Info.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Info.Middle.Disabled.H" parent="_ButtonStyle.Info.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Warning.Middle" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_warning_middle_background</item>
+        <item name="android:textColor">@color/button.Warning.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Middle.F" parent="_ButtonStyle.Warning.Middle">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Middle.G" parent="_ButtonStyle.Warning.Middle">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Middle.H" parent="_ButtonStyle.Warning.Middle">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Warning.Middle.Disabled" parent="_ButtonStyle.Warning.Middle">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Middle.Disabled.F" parent="_ButtonStyle.Warning.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Middle.Disabled.G" parent="_ButtonStyle.Warning.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Warning.Middle.Disabled.H" parent="_ButtonStyle.Warning.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Danger.Middle" parent="_ButtonStyle">
+        <item name="android:background">@drawable/button_danger_middle_background</item>
+        <item name="android:textColor">@color/button.Danger.TextColor.Normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Middle.F" parent="_ButtonStyle.Danger.Middle">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Middle.G" parent="_ButtonStyle.Danger.Middle">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Middle.H" parent="_ButtonStyle.Danger.Middle">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+
+    <style name="_ButtonStyle.Danger.Middle.Disabled" parent="_ButtonStyle.Danger.Middle">
+        <item name="android:alpha">0.65</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Middle.Disabled.F" parent="_ButtonStyle.Danger.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.F.Height</item>
+        <item name="android:textSize">@dimen/button.F.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Middle.Disabled.G" parent="_ButtonStyle.Danger.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.G.Height</item>
+        <item name="android:textSize">@dimen/button.G.TextSize</item>
+    </style>
+
+    <style name="ButtonStyle.Danger.Middle.Disabled.H" parent="_ButtonStyle.Danger.Middle.Disabled">
+        <item name="android:layout_height">@dimen/button.H.Height</item>
+        <item name="android:textSize">@dimen/button.H.TextSize</item>
+    </style>
+</resources>

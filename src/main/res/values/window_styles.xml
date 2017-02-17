@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/window.Primary</item>
+        <item name="colorPrimaryDark">@color/window.PrimaryDark</item>
+        <item name="colorAccent">@color/window.Accent</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="windowMinWidthMajor">@dimen/dialog.Size</item>
+        <item name="windowMinWidthMinor">@dimen/dialog.Size</item>
+    </style>
+</resources>
