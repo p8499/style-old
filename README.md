@@ -20,11 +20,10 @@ compile project(path: ':style')
 Remove the original app/values/styles.xml file
 
 **Step 4**
-Verify you have
+Verify you have this code in AndroidManifest.xml
 ```xml
 <application
    android:theme="@style/AppTheme"
    ...
 />
 ```
-in AndroidManifest.xml
