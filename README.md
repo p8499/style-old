@@ -14,12 +14,12 @@ You can name this module to 'style'.
 link this module to app module
 ```gradle
 compile project(path: ':style')
+compile 'com.android.support:design:25.0.1'
+compile 'com.android.support:cardview-v7:25.0.1'
 ```
+Do not forget to set the version to the latest.
 
 **Step 3**
-Remove the original app/values/styles.xml file
-
-**Step 4**
 Verify you have this code in AndroidManifest.xml
 ```xml
 <application
@@ -27,3 +27,8 @@ Verify you have this code in AndroidManifest.xml
    ...
 />
 ```
+
+**Step 4**
+Remove the original app/values/styles.xml file.
+This will redicrect the link to style_window.xml in style module
+.
